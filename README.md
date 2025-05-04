@@ -48,5 +48,17 @@ ER Diagram: ![Inventory ERD](https://github.com/user-attachments/assets/45ff0467
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/inventory-api.git
-   cd inventory-api
+   https://github.com/Aro-geo/Inventory-Management-CRUD-API.git
+   
+   python -m venv venvsource venv/bin/activate  # For Windows: venv\Scripts\activate pip install -r requirements.txt
+
+### 🧪 Testing API with Swagger
+---
+Run the server: uvicorn main:app --reload
+Open browser: http://127.0.0.1:8000/docs
+Use the interactive UI to test all endpoints
+---
+📄 License
+This project is licensed under the MIT License
+
+
